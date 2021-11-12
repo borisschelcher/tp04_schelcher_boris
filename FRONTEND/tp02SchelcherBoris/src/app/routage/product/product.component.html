@@ -1,0 +1,21 @@
+<div class="grid">
+    <div class="product" *ngFor="let p of produit$  | async">
+
+        <tr>
+            <h1>{{ p.libelle }}</h1>
+        </tr>
+        <tr>
+            <img src="{{ p.photo }}">
+        </tr>
+        <tr>
+            ref: {{ p.ref }}
+        </tr>
+
+        <tr>
+            <h4> prix: {{ p.prix }}</h4>
+        </tr>
+        <tr>
+            <button (click)="addProduct(p)" class="btn btn-secondary buttonAdd">Ajouter</button>
+        </tr>
+    </div>
+</div>

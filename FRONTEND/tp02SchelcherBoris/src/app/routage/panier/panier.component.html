@@ -1,0 +1,22 @@
+<div class="nbProduct">nb produit: {{nb$}}</div>
+
+
+<div class="grid">
+    <div class="product" *ngFor="let p of list$ | async">
+
+        <tr>
+            <h1>{{ p.libelle }}</h1>
+        </tr>
+
+        <tr>
+            ref: {{ p.ref }}
+        </tr>
+
+        <tr>
+            <h4> prix: {{ p.prix }}</h4>
+        </tr>
+        <tr>
+            <button (click)="deleteProduct(p)" class="btn btn-secondary buttonAdd">Supprimer</button>
+        </tr>
+    </div>
+</div>

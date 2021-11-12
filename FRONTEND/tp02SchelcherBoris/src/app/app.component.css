@@ -1,0 +1,8 @@
+@media (min-width: 766px) {
+    .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 50px;
+    }
+}

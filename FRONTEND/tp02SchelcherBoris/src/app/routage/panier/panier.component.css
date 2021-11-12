@@ -1,0 +1,23 @@
+.nbProduct {
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(auto, auto);
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product {
+    text-align: center;
+}
+
+.buttonAdd {
+    text-align: center;
+}

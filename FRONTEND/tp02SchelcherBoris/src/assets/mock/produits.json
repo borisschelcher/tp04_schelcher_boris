@@ -1,0 +1,8 @@
+[
+    { "ref": "121535", "libelle": "macbook pro", "prix": 2800, "photo": "https://i.ibb.co/rvNp52z/macbook-pro.png" },
+    { "ref": "156848", "libelle": "iphone 12", "prix": 909, "photo": "https://i.ibb.co/1X9dt0J/iphone-12.jpg" },
+    { "ref": "789456", "libelle": "apple watch", "prix": 400, "photo": "https://i.ibb.co/HKfvV9h/apple-watch-s7-og-202110.jpg" },
+    { "ref": "128435", "libelle": "macbook air", "prix": 1800, "photo": "https://i.ibb.co/Rg5wKLL/macbook-air.jpg" },
+    { "ref": "156948", "libelle": "iphone 13 pro max", "prix": 1259, "photo": "https://i.ibb.co/h7W2WXG/iphone-13-pro-max.jpg" },
+    { "ref": "789456", "libelle": "ipod", "prix": 200, "photo": "https://i.ibb.co/7YcxNML/ipod.jpg" }
+]
